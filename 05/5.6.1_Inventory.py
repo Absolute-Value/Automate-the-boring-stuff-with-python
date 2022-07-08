@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # 5.6.1 ファンタジーゲームの持ち物リスト
 
 def display_inventory(inventory):

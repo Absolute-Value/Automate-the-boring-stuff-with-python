@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # 3.11.2 入力の妥当性検証
 
 def collatz(number):

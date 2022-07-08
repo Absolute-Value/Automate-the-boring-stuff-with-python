@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # 7.18.1 強いパスワードの検出
 
 import re

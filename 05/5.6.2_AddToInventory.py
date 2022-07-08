@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # 5.6.2 ファンタジーゲームの持ち物リスト用にリストから辞書に移す関数
 
 def display_inventory(inventory):

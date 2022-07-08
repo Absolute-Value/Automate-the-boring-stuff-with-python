@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # 3.11.1 コラッツ数列
 
 def collatz(number):

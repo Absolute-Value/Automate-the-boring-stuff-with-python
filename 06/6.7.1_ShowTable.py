@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # 6.7.1 表の表示
 
 def print_table(table_data):

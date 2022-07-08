@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # 正規表現を用いたstrip()メソッド
 
 import re
