@@ -1,0 +1,1 @@
+書籍 "Automate the boring stuff with python" by Al Swigart のpythonプログラムを実装したものです。
