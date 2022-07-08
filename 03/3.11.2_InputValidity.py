@@ -1,3 +1,5 @@
+# 3.11.2 入力の妥当性検証
+
 def collatz(number):
     if number % 2 == 0:
         return number / 2

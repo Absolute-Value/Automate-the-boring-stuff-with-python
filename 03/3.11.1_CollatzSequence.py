@@ -1,3 +1,5 @@
+# 3.11.1 コラッツ数列
+
 def collatz(number):
     if number % 2 == 0:
         return number / 2
