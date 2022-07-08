@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-# 8.10.1_MultiClipBoard.py - クリップボードのテキストを保存・復元
+# 8.10.1 マルチクリップボードを拡張
 # Usage:
 # 8.10.1_MultiClipBoard.py save <keyword> - クリップボードをキーワードに紐づけて保存
 # 8.10.1_MultiClipBoard.py <keyword> - キーワードに紐づけられたテキストをクリップボードにコピー
