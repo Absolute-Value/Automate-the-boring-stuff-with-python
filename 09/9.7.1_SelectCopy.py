@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # 9.7.1_SelectCopy.py - フォルダから特定のファイルを新しいフォルダにコピーする
 # Usage:
-# 9.4_BackupToZip.py <folder> <extention> - <folder>の<extention(拡張子)>を新しいフォルダにコピー
+# 9.4_SelectCopy.py <folder> <extention> - <folder>の<extention(拡張子)>を新しいフォルダにコピー
 
 import shutil, os, sys
 
@@ -9,7 +9,7 @@ import shutil, os, sys
 if len(sys.argv) != 3:
     print("コピーにしたいフォルダと拡張子を入力してください")
 
-def backup_to_zip(folder, extention):
+def select_copy(folder, extention):
     #folder = os.path.abspath(folder) # folderを絶対パスに
 
     # フォルダのツリーを渡り歩いてその中のファイルを圧縮する
@@ -28,4 +28,4 @@ def backup_to_zip(folder, extention):
 
     print("Done.")
 
-backup_to_zip(sys.argv[1], sys.argv[2])
+select_copy(sys.argv[1], sys.argv[2])
