@@ -1,7 +1,6 @@
 #! /usr/bin/env python3
 # 11.5_lucky.py - Google検索結果をいくつか開く
 
-from os import link
 import requests, sys, webbrowser, bs4
 
 print('Googling...') # Googleページをダウンロード中にテキストを表示
