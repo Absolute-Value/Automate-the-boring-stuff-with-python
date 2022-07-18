@@ -1,6 +1,6 @@
 # 退屈なことはPythonにやらせよう
-![](https://github.com/oreilly-japan/automatestuff-ja/raw/master/automate-the-boring-stuff-with-python.png)
-書籍 ["退屈なことはPythonにやらせよう Automate the boring stuff with python"](https://automatetheboringstuff.com/) by Al Swigart のpythonプログラムを実装したものです。
+![](https://github.com/oreilly-japan/automatestuff-ja/raw/master/automate-the-boring-stuff-with-python.png)  
+書籍 「[退屈なことはPythonにやらせよう Automate the boring stuff with python](https://www.oreilly.co.jp/books/9784873117782/)」（原書名『[Automate the Boring Stuff with Python](https://www.nostarch.com/automatestuff)』）のpythonプログラムを実装したものです。
 
 フォルダは章を表します。
 
