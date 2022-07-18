@@ -1,4 +1,5 @@
 # 退屈なことはPythonにやらせよう
+![](https://github.com/oreilly-japan/automatestuff-ja/raw/master/automate-the-boring-stuff-with-python.png)
 書籍 ["退屈なことはPythonにやらせよう Automate the boring stuff with python"](https://automatetheboringstuff.com/) by Al Swigart のpythonプログラムを実装したものです。
 
 フォルダは章を表します。
