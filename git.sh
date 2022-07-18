@@ -1,5 +1,6 @@
 #!/bin/sh
 
+rm .DS_Store
 git add .
 if [ $# -eq 0 ]; then
     git commit -m "Update"
