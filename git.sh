@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rm .DS_Store
+./RemoveDSStore.py
 git add .
 if [ $# -eq 0 ]; then
     git commit -m "Update"
