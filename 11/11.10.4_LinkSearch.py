@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-# 11.10.4_LinkSearch.py - 
+# 11.10.4_LinkSearch.py - リンクの検査
 
 import requests, bs4, sys, os
 
