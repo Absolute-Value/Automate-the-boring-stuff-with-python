@@ -5,7 +5,7 @@ import openpyxl, pprint
 
 print('ワークブックを開いています...')
 wb = openpyxl.load_workbook('censuspopdata.xlsx')
-sheet = wb.get_sheet_by_name('Population by Census Tract')
+sheet = wb['Population by Census Tract']
 county_data = {}
 
 # TODO: county_dataに群の人口と地域数を格納する
