@@ -1,9 +1,6 @@
 #! /usr/bin/env python3
 # 12.4_readCensusExcel.py - 群ごとに人口と人口調査標準地域の数を集計する
 
-from itertools import count
-from unittest import result
-from numpy import result_type
 import openpyxl, pprint
 
 print('ワークブックを開いています...')
