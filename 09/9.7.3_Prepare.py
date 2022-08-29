@@ -9,6 +9,7 @@ def prepare_serial_number(folder='Files', head='spam'):
     for i in range(1, 23+1):
         if i == 4 or i == 10 or i==11:
             continue
+        print(head + str(i).zfill(3) + '.txt')
         with open(os.path.join(folder, head + str(i).zfill(3) + '.txt'), 'a') as f:
             f.write(str(i))
 

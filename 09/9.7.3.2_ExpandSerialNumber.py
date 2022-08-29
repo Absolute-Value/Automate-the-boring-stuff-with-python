@@ -18,6 +18,6 @@ def expand_serial_number(expand_num=3, folder='Files', head='spam'):
             break
 
 if len(sys.argv) < 2:
-    expand_serial_number
+    expand_serial_number()
 else:
     expand_serial_number(int(sys.argv[1]))
