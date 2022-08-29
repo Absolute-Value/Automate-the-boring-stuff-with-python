@@ -34,9 +34,9 @@ def backup_to_zip(folder):
         # 現在のフォルダの中の全ファイルをZIPファイルに追加する
         for filename in filenames:
             new_base = os.path.basename(folder) + '_'
-            print(new_base)
             if filename.startswith(new_base) and filename.endswith('.zip'):
                 continue
+            print(filename)
             backup_zip.write(os.path.join(foldername, filename), os.path.join(foldername2,filename))
 
     backup_zip.close()
