@@ -10,7 +10,7 @@ def send_email(address, text):
     browser = webdriver.Chrome()
     browser.get('https://sute.jp/')
 
-    MAIL_ADDRESS = 'jtwnb13t3m'
+    MAIL_ADDRESS = 'c0l9tcja2q'
     input_text = browser.find_element(By.NAME, 'user[login]')
     input_text.send_keys(MAIL_ADDRESS)
     time.sleep(0.1)
