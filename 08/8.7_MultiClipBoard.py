@@ -9,14 +9,23 @@ import shelve, pyperclip, sys
 
 mcb_shelf = shelve.open('mcb')
 
+mode = sys.argv[1].lower()
+clip_board = pyperclip.paste()
+
 # クリップボードの内容を保存
-if len(sys.argv) == 3 and sys.argv[1].lower() == 'save':
-    mcb_shelf[sys.argv[2]] = pyperclip.paste()
+if len(sys.argv) == 3 and mode == 'save':
+    keyword = sys.argv[2]
+    mcb_shelf[keyword] = clip_board
+    print(f"クリップボード上の {clip_board} を {keyword}　として保存しました")
+
 elif len(sys.argv) == 2:
     # キーワード一覧と，内容の読み込み
-    if sys.argv[1].lower() == 'list':
+    if mode == 'list':
         pyperclip.copy(str(list(mcb_shelf.keys())))
+        print("全キーワードをクリップボードにコピーしました")
     elif sys.argv[1] in mcb_shelf:
-        pyperclip.copy(mcb_shelf[sys.argv[1]])
+        content = mcb_shelf[sys.argv[1]]
+        pyperclip.copy(content)
+        print(f"{content} をクリップボードにコピーしました")
 
 mcb_shelf.close()
